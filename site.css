@@ -110,3 +110,42 @@ body{
     background-color:rgb(32, 32, 32);
     color: white;
 }
+
+
+@media only screen and (max-width: 600px){
+    body{
+        position: relative;
+        transition: 0.5s;
+        background-size: cover;
+    }
+    .header{
+        width: 100%;
+    }
+
+    .header h2{
+        font-size:24px;
+        line-height:30px;
+    }
+    .button{
+        border-radius:20px;
+        text-align: center;
+        border:1px solid white;
+        height:30px;
+        width: 120px;
+        background-color:rgb(32, 32, 32);
+        color: white;
+    }
+
+    .content-black img{
+        align-items:center;
+        margin:0;
+        padding:0;
+        padding-top: 20px;
+        display: block;
+        width: 90%;
+    }
+   .imgOne, .imgTwo{
+       margin-left: -1px;
+       padding-left: 30px;
+   }
+}
